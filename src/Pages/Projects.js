@@ -4,7 +4,6 @@ import { ProjectList } from "../Helper/ProjectList";
 import classes from "../Styles/Project/Project.module.css";
 
 const Projects = () => {
-  console.log(ProjectList);
   return (
     <div className={classes.projects}>
       <h1> My Personal Projects</h1>

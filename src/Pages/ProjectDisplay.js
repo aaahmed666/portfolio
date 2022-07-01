@@ -8,7 +8,6 @@ function ProjectDisplay() {
   const { id } = useParams();
 
   const project = ProjectList[id];
-  console.log(id);
   return (
     <div className={classes.project}>
       <img src={project.image} alt={project.name} />
