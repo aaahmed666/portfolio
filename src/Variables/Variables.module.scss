@@ -1,0 +1,13 @@
+$mainColor: #21325e;
+$whiteColor: #fff;
+$activeColor: #e9d35b;
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@mixin title($font) {
+  font-size: $font;
+}
